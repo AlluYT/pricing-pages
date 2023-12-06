@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Navbar | CodingNepal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <div class="header-1">
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Zonar</label>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Feedback</a></li>
+        </ul>
+      </nav>
+      <!-- Head Content -->
+      <div class="header-content">
+        <h1>The Perfect Balance <br>
+          of Features and Affordability
+          </h1>
+      </div>
+
+      <div class="header-child">
+        <p>Compliance-driven</p>
+        <p>Simple and intuitive Ui</p>
+        <p>Reliable online support</p>
+      </div>
+          
+      <div class="formDropdown">
+        <div class="country_wrap"> 
+    
+        <button id="arrowBtn"  class="selectOption" onclick="testBtn()"><span id="data" >Select Country</span>
+      <i class="fa fa-angle-down"  aria-hidden="true"></i>
+      </button>
+     
+        
+        </div>
+    
+     
+     
+        <div id="dropDownnn" class="optionGroup" >
+        
+        <div onclick="getDataSelect()" class="listOption"><a href="#" class="getData">
+          <span>Select Country</span></a></div>
+        
+        <div onclick="getData1()" class="listOption"><a href="/us.html" class="getData">
+        <img src="https://cdn-icons-png.flaticon.com/512/206/206626.png" id="imgsrc">
+        <span>United State</span></a></div>
+        
+          
+        <div onclick="getData2()" class="listOption"><a href="/india.html" class="getData">
+        <img src="https://cdn-icons-png.flaticon.com/512/206/206606.png">
+        <span>India</span></a></div>
+        
+        <div onclick="getData3()" class="listOption"><a href="#" class="getData">
+         <img src="https://cdn-icons-png.flaticon.com/512/555/555473.png">
+        <span>Canada</span></a></div>
+    
+        <div onclick="getData3()" class="listOption"><a href="#" class="getData">
+         <img src="/748049_flag_italy_icon.png">
+        <span>Canada</span></a></div>
+        </div>
+    
+        
+        
+        
+    </div> 
+
+    </div>
+
+
+    
+
+
+    <div class="pricing-table-container" style="padding-top: 15px">
+
+
+
+
+      <div class="pricing-table-container">
+      
+
+        <h2 style="text-align: center; position: relative;">Please choose a plan below</h2>
+
+        <div class="container">
+          <div class="pricing-header">
+         
+           
+
+            <div class="plans-switch-container">
+                <input type="checkbox" class="plans-switch">
+                <span class="monthly">Monthly</span>
+                <span class="yearly">Yearly</span>
+            </div>
+        </div>
+         
+            <div class="row">
+                
+              
+                <div class="col">
+                        
+        <div class="pricing-table">
+            <div class="table">
+                <div class="content">
+                    <h3>Basic</h3>
+
+                    <div class="price-container">
+                        <span class="price basic-price">$59</span>
+                        <span class="plan-duration">/ month</span>
+                    </div>
+
+                    <div class="description">
+                        This plan is the best for individuals who are getting started
+                    </div>
+
+                    <ul class="features">
+                        <li>15 Files</li>
+                        <li>10 GB Storage</li>
+                        <li>Email Support</li>
+                    </ul>
+
+                    <a href="#" class="btn">Choose Plan</a>
+                </div>
+
+                <img class="table-bg" src="images/bg-shape1.svg" alt="">
+            </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="col">  
+                    <div class="pricing-table">
+                        <div class="table best-value">
+
+                            <span class="value">Best Value</span>
+            
+                            <div class="content">
+                                <h3>Professional</h3>
+            
+                                <div class="price-container">
+                                    <span class="price professional-price">$100</span>
+                                    <span class="plan-duration">/ month</span>
+                                </div>
+            
+                                <div class="description">
+                                    This plan is for businesses that are getting started
+                                </div>
+            
+                                <ul class="features">
+                                    <li>Unlimited Files</li>
+                                    <li>25 GB Storage</li>
+                                    <li>Phone Support</li>
+                                </ul>
+            
+                                <a href="#" class="btn">Choose Plan</a>
+                            </div>
+            
+                            <img class="table-bg" src="images/bg-shape2.svg" alt="">
+                        </div>
+                        </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="col">
+                        
+                    <div class="pricing-table">
+                        <div class="table">
+                            <div class="content">
+                                <h3>Basic</h3>
+            
+                                <div class="price-container">
+                                    <span class="price basic-price">$49</span>
+                                    <span class="plan-duration">/ month</span>
+                                </div>
+            
+                                <div class="description">
+                                    This plan is the best for individuals who are getting started
+                                </div>
+            
+                                <ul class="features">
+                                    <li>15 Files</li>
+                                    <li>10 GB Storage</li>
+                                    <li>Email Support</li>
+                                </ul>
+            
+                                <a href="#" class="btn">Choose Plan</a>
+                            </div>
+            
+                            <img class="table-bg" src="images/bg-shape1.svg" alt="">
+                        </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+
+    </div>
+<!-- ........................................................................................................................... -->
+<div class="" style="width: auto; height: auto; background-color:#023047;">
+    <Div><H2 class="" style="color: white; text-align:center ;">Our pricing plans are <br> designed for your favor</H2></Div>
+</div>
+
+
+    <!--  -->
+    
+
+
+  <script src="script.js"></script>
+  <script>
+      function testBtn(){
+      var dropDown = document.getElementById("dropDownnn");	
+    var arrowBtn = document.getElementById("arrowBtn");
+    
+          dropDown.classList.toggle("show");
+      
+      arrowBtn.classList.toggle("arrow");
+  };
+  
+  function getDataSelect(){
+  var dropDownnn = document.getElementById("dropDownnn");	
+  var data = document.getElementById("data");
+  var getData = document.getElementsByClassName("getData").value;
+   var arrowBtn = document.getElementById("arrowBtn");
+    var getCountry = document.getElementById("getCountry");
+  //var getData = document.getElementById("getData").value;
+  
+          data.innerHTML = "Select Country:";
+      getCountry.value = ""
+      dropDown.classList.remove("show");
+       arrowBtn.classList.remove("arrow");
+  };
+  
+  
+  function getData1(){
+  var dropDown = document.getElementById("dropDownnn");	
+  var data = document.getElementById("data");
+  var getData = document.getElementsByClassName("getData").value;
+   var arrowBtn = document.getElementById("arrowBtn");
+   var getCountry = document.getElementById("getCountry");
+  //var getData = document.getElementById("getData").value;
+  
+          data.innerHTML = ("<img src='https://cdn-icons-png.flaticon.com/512/206/206626.png'>" + "United State");
+      getCountry.value ="+1"
+      dropDown.classList.remove("show");
+       arrowBtn.classList.remove("arrow");
+      
+  };
+  
+  function getData2(){
+  var dropDownnn = document.getElementById("dropDownnn");	
+  var data = document.getElementById("data");
+  var getData = document.getElementsByClassName("getData").value;
+   var arrowBtn = document.getElementById("arrowBtn");
+   var getCountry = document.getElementById("getCountry");
+  //var getData = document.getElementById("getData").value;
+          data.innerHTML =("<img src='https://cdn-icons-png.flaticon.com/512/206/206606.png'>" + "India");
+      
+      getCountry.value = "+91"
+      dropDown.classList.remove("show");
+       arrowBtn.classList.remove("arrow");
+  }
+  
+  function getData3(){
+  var dropDownnn = document.getElementById("dropDownnn");	
+  var data = document.getElementById("data");
+  var getData = document.getElementsByClassName("getData").value;
+   var arrowBtn = document.getElementById("arrowBtn");
+   var getCountry = document.getElementById("getCountry");
+  //var getData = document.getElementById("getData").value;
+          data.innerHTML = ("<img src='https://cdn-icons-png.flaticon.com/512/555/555473.png'>" + "Canada");
+      dropDown.classList.remove("show");
+       arrowBtn.classList.remove("arrow");
+       getCountry.value = "+44";
+   
+  }
+  
+  /************************get country code input***************************/
+  
+  </script>
+
+
+  
+  
+  </body>
+</html>
+
+
+
+<!-- https://www.codingnepalweb.com/responsive-navigation-menu-bar-html-css/#google_vignette -->
